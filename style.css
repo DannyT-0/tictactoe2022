@@ -1,0 +1,19 @@
+body {
+	background-color: coral;
+	font-size: 60px;
+}
+
+.gameContainer {
+	display: grid;
+	margin-left: 500px;
+	gap: 10px;
+	grid-template-columns: repeat(3, 150px);
+	grid-template-rows: repeat(3, 150px);
+}
+
+.gameBox {
+	padding-top: 35px;
+	text-align: center;
+	background-color: peachpuff;
+	border: 1px solid black;
+}
