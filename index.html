@@ -2,23 +2,38 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
 		<link rel="stylesheet" href="style.css" />
 		<script src="script.js" defer></script>
+		<title>Document</title>
 	</head>
+
 	<body>
-		<div class="gameContainer">
-			<div class="gameBox"></div>
-			<div class="gameBox"></div>
-			<div class="gameBox"></div>
-			<div class="gameBox"></div>
-			<div class="gameBox"></div>
-			<div class="gameBox"></div>
-			<div class="gameBox"></div>
-			<div class="gameBox"></div>
-			<div class="gameBox"></div>
+		<div class="boardContainer">
+			<div class="rowTicTac0 rowBox"></div>
+			<div class="rowTicTac1 rowBox"></div>
+			<div class="rowTicTac2 rowBox"></div>
+			<div class="rowTicTac3 rowBox"></div>
+			<div class="rowTicTac4 rowBox"></div>
+			<div class="rowTicTac5 rowBox"></div>
+			<div class="rowTicTac6 rowBox"></div>
+			<div class="rowTicTac7 rowBox"></div>
+			<div class="rowTicTac8 rowBox"></div>
 		</div>
+
+		<div class="buttonContainer">
+			<button class="resetGame">Reset Game</button>
+			<button class="startGame">Start Game</button>
+		</div>
+
+		<div class="nameContainer">
+			<label for="playerOne">Player One</label>
+			<input type="text" name="playerOne" id="playerOne" />
+
+			<label for="playerTwo">Player Two</label>
+			<input type="text" name="playerTwo" id="playerTwo" />
+		</div>
+
+		<div class="announceResult"></div>
 	</body>
 </html>
